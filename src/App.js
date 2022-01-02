@@ -5,24 +5,24 @@ import Logo from "./Components/Logo/Logo";
 import ImageLinkForm from "./Components/ImageLinkForm/ImageLinkForm";
 import Rank from "./Components/Rank/Rank";
 import "tachyons";
-import Particles from "react-particles-js";
+// import Particles from "react-particles-js";
 import FaceRecogniser from "./Components/FaceRecogniser/FaceRecogniser";
 import Signin from "./Components/Signin/Signin";
 import Register from "./Components/Register/Register";
 
 
 
-const particlesparameters = {
-  particles: {
-    number: {
-      value: 150,
-      density: {
-        enable: true,
-        value_area: 900,
-      },
-    },
-  },
-};
+// const particlesparameters = {
+//   particles: {
+//     number: {
+//       value: 150,
+//       density: {
+//         enable: true,
+//         value_area: 900,
+//       },
+//     },
+//   },
+// };
 
 const initialstate = {
       input: "",
@@ -132,7 +132,7 @@ class App extends Component {
     const { isSignedIn, imageurl, route } = this.state;
     return (
       <div className="App">
-        <Particles className="particles" params={particlesparameters} />
+        {/* <Particles className="particles" params={particlesparameters} /> */}
         <Navigation isSignedIn={isSignedIn} onroute={this.onroutechange} />
         {route === "home" ? (
             <div>
