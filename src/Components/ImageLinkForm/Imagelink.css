@@ -1,0 +1,69 @@
+.all,
+.formbtn {
+  display: flex;
+  justify-content: center;
+}
+
+.formbtn {
+  padding: 23px 50px;
+  background: radial-gradient(#00000030 3px, #00000003 4px),
+    radial-gradient(#0000004a 3px, #6f8cdd57 4px),
+    linear-gradient(#fff 4px, transparent 0),
+    linear-gradient(
+      45deg,
+      transparent 74px,
+      transparent 75px,
+      #a4a4a4 75px,
+      #a4a4a4 76px,
+      transparent 77px,
+      transparent 109px
+    ),
+    linear-gradient(
+      -45deg,
+      transparent 75px,
+      transparent 76px,
+      #a4a4a4 76px,
+      #a4a4a4 77px,
+      #0000000d 78px,
+      transparent 109px
+    ),
+    #fff;
+  background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
+  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+}
+
+.form {
+  margin-right: 2px;
+  padding: 0px 50px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.btn {
+  margin-left: 4px;
+  border-radius: 6px;
+  background-color: #6c6bc3;
+  border: 2px solid rgb(109 182 226);
+  background-image: linear-gradient(
+    60deg,
+    #4bc0da 0%,
+    #2478ee 51%,
+    #00d2ff 100%
+  );
+  text-align: center;
+  cursor: pointer;
+  padding: 5px 17px;
+}
+
+.btn:hover {
+   background-image: linear-gradient(
+    60deg,
+    #37cbec 0%,
+    #312ef1 51%,
+    #00d2ff 100%
+  );
+}
+.text {
+  font-size: 1.3em;
+  color: #091043;
+}
